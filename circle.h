@@ -1,8 +1,8 @@
 class Circle{
     int radius;
     
-    public;
-        Circle(int radius);
+    public:
+        Circle();
         string build();
         void printCircle();
 };
@@ -11,14 +11,10 @@ Circle::Circle(){
     radius = 1;
 }
 
-Circle::Circle(int r){
-    radius = r;
-    
-}
 
 string Circle::build(){
     string rslt = "This is a circle";
-    
+    return rslt;
 }
 
 void Circle::printCircle(){
