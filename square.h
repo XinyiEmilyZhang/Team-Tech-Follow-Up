@@ -1,12 +1,13 @@
 #pragma once
 #include <string>
 #include <iostream>
+using namespace std;
 
 class square {
     int side;
     
 public:
-    square(int side)
+    square();
     string build();
     void printsquare();
 };
@@ -16,12 +17,15 @@ square::square(){
 }
 
 string square::build(){
-    string output = "square shape"
+    string output = "square shape";
+    return output;
 
 }
 
 void square::printsquare(){
     string printoutput = build();
-    cout << printoutput << end1:
+    cout << printoutput << endl;
+    
+}
     
 
